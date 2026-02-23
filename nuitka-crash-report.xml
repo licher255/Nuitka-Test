@@ -40,7 +40,7 @@
     </module_usages>
   </module>
   <module name="PySide6.QtCore" kind="PythonExtensionModule" usage="import" reason="Extension module needed for standalone mode." source_path="${sys.prefix}\lib\site-packages\PySide6\QtCore.pyd" distribution="PySide6">
-    <optimization-time pass="1" time="0.05" />
+    <optimization-time pass="1" time="0.04" />
     <optimization-time pass="2" time="0.00" />
     <module_usages />
   </module>
@@ -61,7 +61,7 @@
     <module_usages />
   </module>
   <module name="PySide6.QtNetwork" kind="PythonExtensionModule" usage="import fromlist" reason="Extension module needed for standalone mode." source_path="${sys.prefix}\lib\site-packages\PySide6\QtNetwork.pyd" distribution="PySide6,PySide6_Addons,PySide6_Essentials">
-    <optimization-time pass="1" time="0.01" />
+    <optimization-time pass="1" time="0.00" />
     <optimization-time pass="2" time="0.00" />
     <module_usages />
   </module>
@@ -92,7 +92,7 @@
     <module_usages />
   </module>
   <module name="__main__" kind="PythonMainModule" usage="root_module" reason="Root module" source_path="${cwd}\hello.py">
-    <optimization-time pass="1" time="0.05" />
+    <optimization-time pass="1" time="0.04" />
     <optimization-time pass="2" time="0.01" />
     <distribution-usages>
       <distribution-usage name="PySide6" />
@@ -717,7 +717,7 @@
     </module_usages>
   </module>
   <module name="collections" kind="UncompiledPythonPackage" usage="stdlib" reason="Technically required for CPython library startup." source_path="${sys.prefix}\lib\collections\__init__.py">
-    <optimization-time pass="1" time="0.05" />
+    <optimization-time pass="1" time="0.04" />
     <optimization-time pass="2" time="0.00" />
     <module_usages>
       <module_usage name="os" finding="absolute" line="1" />
@@ -796,7 +796,7 @@
     </module_usages>
   </module>
   <module name="copy" kind="UncompiledPythonModule" usage="stdlib" reason="Including as part of the non-excluded parts of standard library." source_path="${sys.prefix}\lib\copy.py">
-    <optimization-time pass="1" time="0.02" />
+    <optimization-time pass="1" time="0.01" />
     <optimization-time pass="2" time="0.00" />
     <module_usages>
       <module_usage name="types" finding="absolute" line="51" />
@@ -890,7 +890,7 @@
     </module_usages>
   </module>
   <module name="email" kind="UncompiledPythonPackage" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\email\__init__.py">
-    <optimization-time pass="1" time="0.01" />
+    <optimization-time pass="1" time="0.00" />
     <optimization-time pass="2" time="0.00" />
     <module_usages>
       <module_usage name="os" finding="absolute" line="1" />
@@ -940,7 +940,7 @@
     </module_usages>
   </module>
   <module name="email._policybase" kind="UncompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\email\_policybase.py">
-    <optimization-time pass="1" time="0.04" />
+    <optimization-time pass="1" time="0.03" />
     <optimization-time pass="2" time="0.00" />
     <module_usages>
       <module_usage name="abc" finding="absolute" line="6" />
@@ -960,7 +960,7 @@
     </module_usages>
   </module>
   <module name="email.charset" kind="UncompiledPythonModule" usage="import fromlist" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\email\charset.py">
-    <optimization-time pass="1" time="0.02" />
+    <optimization-time pass="1" time="0.01" />
     <optimization-time pass="2" time="0.00" />
     <module_usages>
       <module_usage name="functools" finding="absolute" line="12" />
@@ -984,7 +984,7 @@
     </module_usages>
   </module>
   <module name="email.encoders" kind="UncompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\email\encoders.py">
-    <optimization-time pass="1" time="0.02" />
+    <optimization-time pass="1" time="0.01" />
     <optimization-time pass="2" time="0.00" />
     <module_usages>
       <module_usage name="base64" finding="absolute" line="15" />
@@ -997,7 +997,7 @@
     <module_usages />
   </module>
   <module name="email.feedparser" kind="UncompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\email\feedparser.py">
-    <optimization-time pass="1" time="0.02" />
+    <optimization-time pass="1" time="0.01" />
     <optimization-time pass="2" time="0.00" />
     <module_usages>
       <module_usage name="re" finding="absolute" line="24" />
@@ -1059,7 +1059,7 @@
     </module_usages>
   </module>
   <module name="email.message" kind="UncompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\email\message.py">
-    <optimization-time pass="1" time="0.03" />
+    <optimization-time pass="1" time="0.02" />
     <optimization-time pass="2" time="0.00" />
     <module_usages>
       <module_usage name="re" finding="absolute" line="9" />
@@ -1081,7 +1081,7 @@
     </module_usages>
   </module>
   <module name="email.parser" kind="UncompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\email\parser.py">
-    <optimization-time pass="1" time="0.02" />
+    <optimization-time pass="1" time="0.01" />
     <optimization-time pass="2" time="0.00" />
     <module_usages>
       <module_usage name="io" finding="absolute" line="10" />
@@ -1090,7 +1090,7 @@
     </module_usages>
   </module>
   <module name="email.policy" kind="UncompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\email\policy.py">
-    <optimization-time pass="1" time="0.02" />
+    <optimization-time pass="1" time="0.01" />
     <optimization-time pass="2" time="0.00" />
     <module_usages>
       <module_usage name="re" finding="absolute" line="5" />
@@ -1112,7 +1112,7 @@
   </module>
   <module name="email.utils" kind="UncompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\email\utils.py">
     <plugin-influence name="anti-bloat" influence="condition-used" condition="not has_builtin_module(&quot;_socket&quot;)" tags_used="has_builtin_module" result="true" />
-    <optimization-time pass="1" time="0.04" />
+    <optimization-time pass="1" time="0.03" />
     <optimization-time pass="2" time="0.00" />
     <module_usages>
       <module_usage name="os" finding="absolute" line="25" />
@@ -2147,7 +2147,7 @@
     </module_usages>
   </module>
   <module name="functools" kind="UncompiledPythonModule" usage="stdlib" reason="Technically required for CPython library startup." source_path="${sys.prefix}\lib\functools.py">
-    <optimization-time pass="1" time="0.04" />
+    <optimization-time pass="1" time="0.03" />
     <optimization-time pass="2" time="0.00" />
     <module_usages>
       <module_usage name="abc" finding="absolute" line="17" />
@@ -2742,7 +2742,7 @@
     </module_usages>
   </module>
   <module name="ntpath" kind="UncompiledPythonModule" usage="stdlib" reason="Technically required for CPython library startup." source_path="${sys.prefix}\lib\ntpath.py">
-    <optimization-time pass="1" time="0.02" />
+    <optimization-time pass="1" time="0.01" />
     <optimization-time pass="2" time="0.00" />
     <module_usages>
       <module_usage name="os" finding="absolute" line="20" />
@@ -2814,7 +2814,7 @@
     </module_usages>
   </module>
   <module name="pathlib" kind="UncompiledPythonModule" usage="stdlib" reason="Including as part of the non-excluded parts of standard library." source_path="${sys.prefix}\lib\pathlib.py">
-    <optimization-time pass="1" time="0.02" />
+    <optimization-time pass="1" time="0.01" />
     <optimization-time pass="2" time="0.00" />
     <module_usages>
       <module_usage name="fnmatch" finding="absolute" line="1" />
@@ -3127,7 +3127,7 @@
     </module_usages>
   </module>
   <module name="shiboken6" kind="CompiledPythonPackage" usage="plugin:implicit-imports" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\site-packages\shiboken6\__init__.py" distribution="shiboken6">
-    <optimization-time pass="1" time="0.13" />
+    <optimization-time pass="1" time="0.12" />
     <optimization-time pass="2" time="0.00" />
     <module_usages>
       <module_usage name="os" finding="absolute" line="1" />
@@ -3306,7 +3306,7 @@
     </module_usages>
   </module>
   <module name="statistics" kind="UncompiledPythonModule" usage="import" reason="Instructed by user to follow to all modules." source_path="${sys.prefix}\lib\statistics.py">
-    <optimization-time pass="1" time="0.02" />
+    <optimization-time pass="1" time="0.01" />
     <optimization-time pass="2" time="0.00" />
     <module_usages>
       <module_usage name="math" finding="absolute" line="103" />
@@ -3482,7 +3482,7 @@
     </module_usages>
   </module>
   <module name="threading" kind="UncompiledPythonModule" usage="stdlib" reason="Including as part of the non-excluded parts of standard library." source_path="${sys.prefix}\lib\threading.py">
-    <optimization-time pass="1" time="0.01" />
+    <optimization-time pass="1" time="0.00" />
     <optimization-time pass="2" time="0.00" />
     <module_usages>
       <module_usage name="os" finding="absolute" line="3" />
@@ -3587,7 +3587,7 @@
     </module_usages>
   </module>
   <module name="tracemalloc" kind="UncompiledPythonModule" usage="stdlib" reason="Including as part of the non-excluded parts of standard library." source_path="${sys.prefix}\lib\tracemalloc.py">
-    <optimization-time pass="1" time="0.03" />
+    <optimization-time pass="1" time="0.02" />
     <optimization-time pass="2" time="0.00" />
     <module_usages>
       <module_usage name="collections.abc" finding="absolute" line="1" />
@@ -3682,7 +3682,7 @@
     </module_usages>
   </module>
   <module name="weakref" kind="UncompiledPythonModule" usage="stdlib" reason="Including as part of the non-excluded parts of standard library." source_path="${sys.prefix}\lib\weakref.py">
-    <optimization-time pass="1" time="0.01" />
+    <optimization-time pass="1" time="0.00" />
     <optimization-time pass="2" time="0.00" />
     <module_usages>
       <module_usage name="_weakref" finding="absolute" line="12" />
@@ -3730,7 +3730,7 @@
     </module_usages>
   </module>
   <module name="zipfile" kind="UncompiledPythonModule" usage="stdlib" reason="Including as part of the non-excluded parts of standard library." source_path="${sys.prefix}\lib\zipfile.py">
-    <optimization-time pass="1" time="0.02" />
+    <optimization-time pass="1" time="0.01" />
     <optimization-time pass="2" time="0.00" />
     <module_usages>
       <module_usage name="binascii" finding="absolute" line="6" />
@@ -3774,9 +3774,9 @@
     </module_usages>
   </module>
   <performance>
-    <memory_usage name="after_launch" value="39895040" />
-    <memory_usage name="before_c_code_generation" value="54738944" />
-    <memory_usage name="before_running_scons" value="55304192" />
+    <memory_usage name="after_launch" value="39976960" />
+    <memory_usage name="before_c_code_generation" value="56070144" />
+    <memory_usage name="before_running_scons" value="56893440" />
   </performance>
   <included_extension name="QtCore.pyd" dest_path="PySide6\QtCore.pyd" source_path="${sys.prefix}\lib\site-packages\PySide6\QtCore.pyd" package="PySide6" ignored="no" reason="used extension module" />
   <included_extension name="QtGui.pyd" dest_path="PySide6\QtGui.pyd" source_path="${sys.prefix}\lib\site-packages\PySide6\QtGui.pyd" package="PySide6" ignored="no" reason="used extension module" />
@@ -3802,17 +3802,17 @@
     <module_data filename="module.shiboken6.const" input_size="1031" blob_name="shiboken6" blob_size="517" />
   </data_composer>
   <command_line>
-    <option value="D:\Project-Python-Nuitka\Nuitka-Test\hello.py" />
-    <option value="--follow-imports" />
+    <option value="--standalone" />
+    <option value="--windows-console-mode=disable" />
     <option value="--enable-plugin=pyside6" />
-    <option value="--output-dir=D:\Project-Python-Nuitka\Nuitka-Test\deployment" />
-    <option value="--quiet" />
-    <option value="--noinclude-qt-translations" />
-    <option value="--onefile" />
-    <option value="--noinclude-dlls=*.cpp.o" />
-    <option value="--noinclude-dlls=*.qsb" />
-    <option value="--noinclude-dlls=*.webp" />
-    <option value="--windows-icon-from-ico=C:\Users\hkclr_user\miniconda3\envs\packingTest\Lib\site-packages\PySide6\scripts\deploy_lib\pyside_icon.ico" />
+    <option value="--msvc=latest" />
+    <option value="--lto=yes" />
+    <option value="--remove-output" />
+    <option value="--output-dir=dist" />
+    <option value="--windows-company-name=YourCompany" />
+    <option value="--windows-product-name=HelloApp" />
+    <option value="--windows-file-version=1.0.0.0" />
+    <option value="hello.py" />
   </command_line>
   <plugins>
     <plugin name="anti-bloat" user_enabled="no" />
@@ -3850,5 +3850,5 @@
       <path value="${sys.prefix}\lib\site-packages\setuptools\_vendor" />
     </search_path>
   </python>
-  <output run_filename="${cwd}\deployment\hello.exe" />
+  <output run_filename="${cwd}\dist\hello.dist\hello.exe" />
 </nuitka-compilation-report>
